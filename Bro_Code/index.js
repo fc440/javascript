@@ -98,4 +98,34 @@ z = Boolean('');
 console.log(x, typeof x);
 console.log(y, typeof y);
 console.log(z, typeof z);
+
+
+// const a variable that cannot be changed
+
+const PI = 3.14159; // its good practice to use uppercase on const variables
+let radius;
+let circumference;
+
+
+
+
+radius = window.prompt("Enter the radius of a circle");
+radius = Number(radius);
+
+circumference = 2 * pi * radius;
+
+console.log('The circumference is:', circumference);  
 */
+
+
+let x = 3.14;
+
+//x = Math.round(x);    // rounds to whole numbers or ints
+//x = Math.floor(x);    // will always round down
+//x = Math.ceil(x);       // will always round up
+//x = Math.pow(x, 2);      // will raise x to the power of the number after comma
+//x = Math.sqrt(x);       // will give the square root of x
+x = Math.abs(x);          //  will find absolute value away from 0
+
+
+console.log(x);
